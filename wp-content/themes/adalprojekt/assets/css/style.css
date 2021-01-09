@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*
+Theme Name: Adalprojekt
+Text Domain: Adalprojekt
+Version: 1.6
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Ôö╝├íablona spolku A dÔöť├şl?
+Author URI: https://adalprojekt.cz
+Theme URI: https://adalprojekt.cz
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap");
+.navbar {
+  background: #000; }
+  .navbar .navbar-brand {
+    color: #fff !important; }
+  .navbar .navbar-toggler {
+    background-color: #fff; }
+  .navbar .collapse.navbar-collapse #menu-mainmenu .menu-item .nav-link {
+    color: #fff; }
+    .navbar .collapse.navbar-collapse #menu-mainmenu .menu-item .nav-link:hover {
+      color: yellow; }
+    .navbar .collapse.navbar-collapse #menu-mainmenu .menu-item .nav-link:active {
+      color: yellow; }
+
+#bs-example-navbar-collapse-1 {
+  justify-content: flex-end; }
+
+html {
+  margin-top: 0 !important; }
+
+/*# sourceMappingURL=style.css.map */

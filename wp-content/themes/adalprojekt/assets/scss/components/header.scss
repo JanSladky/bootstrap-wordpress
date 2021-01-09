@@ -1,0 +1,25 @@
+//variables
+$navbar-color: #000;
+$link-color: #fff;
+$link-color-hover: yellow;
+
+.navbar {
+    background: $navbar-color;
+}
+.nav-link {
+    color: $link-color;
+    &:hover, &:active {
+        color: $link-color-hover;
+    }
+}
+.navbar-brand {
+    color: $link-color;
+
+    &:hover, &:active {
+        color: $link-color-hover;
+    }
+}
+.navbar-nav {
+    margin-left: auto;
+
+}
